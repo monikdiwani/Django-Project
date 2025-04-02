@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.catalog-container {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.phase-1 { background-color: #ffcccc; }
+.phase-2 { background-color: #ffe6cc; }
+.phase-3 { background-color: #ccffcc; }
+.phase-4 { background-color: #cce6ff; }
+
+.daredevil { background-color: #ffb3b3; }
+.jessica-jones { background-color: #d9b3ff; }
+.iron-fist { background-color: #ffcc66; }
+.defenders { background-color: #99ccff; }
+.punisher { background-color: #b3b3cc; }
+.runaways { background-color: #66ff66; }
+.cloak-dagger { background-color: #ffb366; }
+.wandavision { background-color: #ff99ff; }
+.falcon-winter-soldier { background-color: #66b3ff; }
+.loki { background-color: #99ff99; }
+.what-if { background-color: #ffff66; }
+.hawkeye { background-color: #ff99cc; }
+.moon-knight { background-color: #ccccff; }
+.ms-marvel { background-color: #99ccff; }
+.she-hulk { background-color: #66ffb3; }
+
+p {
+  margin: 10px 0;
+}

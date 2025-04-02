@@ -1,0 +1,93 @@
+/* General Modal Styles */
+.modal-content {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 20px;
+    animation: modalFadeIn 0.5s ease-in-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.modal-header h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #34495E;
+    letter-spacing: 1px;
+}
+
+.modal-body {
+    padding-top: 10px;
+}
+
+button.close {
+    color: #7F8C8D;
+    font-size: 1.5em;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: none;
+    border: none;
+}
+
+.modal-content .form-group {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    color: #34495E;
+    background-color: #ECF0F1;
+    transition: all 0.3s ease;
+}
+
+.modal-content input:focus {
+    border-color: #3498DB;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+/* Button Styles */
+button[type="submit"] {
+    background-color: #1ABC9C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #16A085;
+}
+
+/* Modal Animations */
+@keyframes modalFadeIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive Design for Modals */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 15px;
+    }
+
+    .modal-header h4 {
+        font-size: 1.5em;
+    }
+}

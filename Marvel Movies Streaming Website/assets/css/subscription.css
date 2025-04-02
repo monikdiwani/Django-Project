@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fc;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.subscription-container {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #f4f4f9, #f0f4fc);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h5 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 15px;
+}
+
+.card .price {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.btn-subscribe {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-subscribe:hover {
+    background-color: #0056b3;
+}
+
+/* Offer section styling */
+.offer-container {
+    margin-top: 50px;
+}
+
+.offer-card {
+    background-color: #ffeeba;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    animation: offerAnimation 2s ease;
+}
+
+.offer-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.offer-description {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+@keyframes offerAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Button Animation */
+.btn-offer {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-offer:hover {
+    background-color: #e64a19;
+}
+
+.btn-plan:hover {
+    background-color: #286090;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.btn-payment {
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-payment:hover {
+    background-color: #218838;
+}

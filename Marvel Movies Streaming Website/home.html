@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Monik Productions Limited</title>
+
+<!-- go up button  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <!-- External CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" href="./assets/images/mpl.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/hover.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/user.css"/>
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+
+</head>
+
+
+
+  <body background="assets/images/mash-up2.png" >
+
+    <header>
+      <nav>
+        <a class="logo" href="home.html">
+          <img src="./assets/images/mpl.png" alt="Logo" width="35" height="35">
+        </a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">HOME</a></li>
+          <li><a href="./html/catalog.html">CATALOG</a></li>
+          <li><a data-toggle="modal" data-target="#signupModal" href="#">SIGN UP</a></li>
+          <li><a data-toggle="modal" data-target="#loginModal" href="#">LOGIN</a></li>
+          <li><a href="./html/about us.html">ABOUT US</a></li>
+          <li><a href="./html/contact.html">CONTACT US</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Search...">
+          <button id="search-btn" class="search-btn">Search</button>
+        </div>
+      </nav>
+    </header>
+    
+    
+
+    <script src="./assets/js/js.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/user.js"></script>
+    <script src="./assets/js/search.js"></script>
+
+
+<br>
+
+<center>
+  <div class="slide-container" style="background-color: #ede6d6">
+    <div class="slides">
+      <img src="./assets/images/banner1.jpg" class="active"> <!-- First image should have the active class -->
+      <img src="./assets/images/banner10.avif">
+      <img src="./assets/images/banner4.jpg">
+      <img src="./assets/images/banner5.jpg">
+      <img src="./assets/images/banner6.jpg">
+    </div>
+  
+    <div class="buttons">
+      <span class="next">&#10095;</span>
+      <span class="prev">&#10094;</span>
+    </div>
+  
+    <div class="dotsContainer">
+      <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+      <div class="dot" attr="1" onclick="switchImage(this)"></div>
+      <div class="dot" attr="2" onclick="switchImage(this)"></div>
+      <div class="dot" attr="3" onclick="switchImage(this)"></div>
+      <div class="dot" attr="4" onclick="switchImage(this)"></div>
+    </div>
+  </div>
+  </center>
+  
+
+
+<!-- CARDS -->
+
+<br>
+<div class="row gy-3 my-3 " id="movie-cards">
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">
+      <img src="assets/images/ironman1.jpg" class="card-img-top" alt="..."  width="1500" height="200">
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">IRON MAN</h4>
+         <a href="./html/movie1.html" class="btn btn-primary"> watch now </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">
+      <img src="assets/images/hulk.png" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">THE INCREDIBLE HULK</h5>
+<a href="./html/movie2.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">
+      <img src="assets/images/ironman2.webp" class="card-img-top" alt="..."  width="1500" height="200">
+    </div>
+      <div class="card-body">
+        <h5 class="card-title">IRON MAN 2</h5>
+<a href="./html/movie3.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+<div class="inner">      <img src="assets/images/thor.webp" class="card-img-top" alt="..."  width="1500" height="200"> </div>
+      <div class="card-body">
+        <h5 class="card-title">THOR</h5>
+<a href="./html/movie4.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+<div class="inner">      <img src="assets/images/captain america.jfif" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">CAPTAIN AMERICA:THE FIRST AVENGER</h5>
+<a href="./html/movie5.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/avengers.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">THE AVENGERS</h5>
+<a href="./html/movie6.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/ironman3.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">IRON MAN 3</h5>
+<a href="./html/movie7.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/thor2.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">THOR:THE DARK WORLD</h5>
+<a href="./html/movie8.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/captain america2.avif" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">CAPTAIN AMERICA:THE WINTER SOLDIER</h5>
+<a href="./html/movie9.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/guardians of the galaxy1.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">GUARDIANS OF THE GALAXY</h5>
+<a href="./html/movie10.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">    <img src="assets/images/avengers2.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">AVENGER:AGE OF ULTRON</h5>
+<a href="./html/movie11.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">    <img src="assets/images/antman1.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">ANT-MAN</h5>
+<a href="./html/movie12.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/captain america3.jfif" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">CAPTAIN AMERICA:CIVIL WAR</h5>
+<a href="./html/movie13.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">   <img src="assets/images/doctor strange.jpeg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">DOCTER STRANGE</h5>
+<a href="./html/movie14.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/guardians of the galaxy2.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">GUARDIANS OF THE GALAXY VOL.2</h5>
+<a href="./html/movie15.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">   <img src="assets/images/spider man1.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">SPIDER-MAN:HOMECOMING</h5>
+<a href="./html/movie16.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/thor3.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">THOR:RAGNAROK</h5>
+<a href="./html/movie17.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">    <img src="assets/images/black panther.jpg" class="card-img-top" alt="..."   width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">BLACK PANTHER</h5>
+<a href="./html/movie18.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">    <img src="assets/images/avengers3.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">AVENGERS:INFINITY WAR</h5>
+<a href="./html/movie19.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/antman2.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">ANT-MAN AND THE WASP</h5>
+<a href="./html/movie20.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">   <img src="assets/images/captain marvel.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">CAPTAIN MARVEL</h5>
+<a href="./html/movie21.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">   <img src="assets/images/avengers4.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body"> 
+<h5 class="card-title">AVENGERS:ENDGAME</h5>
+<a href="./html/movie22.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">    <img src="assets/images/spider man2.jpeg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">SPIDER-MAN:FAR FROM HOME</h5>
+<a href="./html/movie23.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/black widow.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">BLACK WIDOW</h5>
+<a href="./html/movie24.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">     <img src="assets/images/shang-chi.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">SHANG-CHI AND LEGEND OF THE TEN RINGS</h5>
+<a href="./html/movie25.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/eternals.avif" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">ETERNALS</h5>
+<a href="./html/movie26.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/spider man3.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">SPIDER-MAN:NO WAY HOME</h5>
+<a href="./html/movie27.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/doctor strange2.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">DOCTER STRANGE IN THE MULTIVERSE OF MADNESS</h5>
+<a href="./html/movie28.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/thor4.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">THOR:LOVE AND THUNDER</h5>
+<a href="./html/movie29.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/black panther2.jpg" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">BLACK PANTHER:WAKANDA FOREVER</h5>
+<a href="./html/movie30.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/antman3.avif" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">ANT-MAN AND WASP:QUANTUMANIA</h5>
+<a href="./html/movie31.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div class="card h-100">
+      <div class="inner">      <img src="assets/images/guardians of the galaxy3.webp" class="card-img-top" alt="..."  width="1500" height="200"></div>
+      <div class="card-body">
+        <h5 class="card-title">GUARDIANS OF THE GALAXY VOL.3</h5>
+<a href="./html/movie32.html" class="btn btn-primary">watch now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signup Modal -->
+<div id="signupModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Sign Up</h4>
+          </div>
+          <div class="modal-body">
+              <form id="signupForm">
+                  <div class="form-group">
+                      <input type="text" id="signup-name" name="signup-name" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" id="signup-email" name="signup-email" placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="password" id="signup-password" name="signup-password" placeholder="Password" required>
+                  </div>
+                  <button type="submit">Create Account</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Login</h4>
+          </div>
+          <div class="modal-body">
+              <form id="loginForm">
+                  <div class="form-group">
+                      <input type="email" id="login-email" name="login-email" placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="password" id="login-password" name="login-password" placeholder="Password" required>
+                  </div>
+                  <button type="submit">Login</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593; Top &#8593;</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<div class="footer-basic">
+  <footer>
+      <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">MONIK PRODUCTIONS LIMITED © 2024</p>
+  </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

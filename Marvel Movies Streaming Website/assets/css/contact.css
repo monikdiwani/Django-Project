@@ -1,0 +1,114 @@
+/* Contact Us Container */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #F7F9F9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    animation: fadeInDown 1.2s ease-in-out;
+}
+
+.contact-container p {
+    font-family: 'Roboto', sans-serif;
+    color: #7F8C8D;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    color: #34495E;
+    background-color: #ECF0F1;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3498DB;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #1ABC9C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+    background-color: #16A085;
+}
+
+/* Form Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        padding: 30px 15px;
+    }
+    
+    .contact-container h1 {
+        font-size: 2em;
+    }
+    
+    button[type="submit"] {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
